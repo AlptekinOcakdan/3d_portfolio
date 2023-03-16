@@ -25,38 +25,57 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import exorditech from "./company/Exorditech.jpeg";
+import sbbitd from "./company/SBBITD.jpeg";
+import ravensoft from "./company/RavenSoft.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ligep from "./ligep.png";
+import gpt from "./gpt-3.png";
+import portfolio from "./porfolio.png";
+
+import ilker from "./testimonial/IlkerCanbulut.jpg"
+import ahmet from "./testimonial/Ahmet.jpeg"
+import huseyin from "./testimonial/Huseyin.jpeg"
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+    logo,
+    backend,
+    creator,
+    mobile,
+    web,
+    github,
+    menu,
+    close,
+    css,
+    docker,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    nodejs,
+    reactjs,
+    redux,
+    tailwind,
+    typescript,
+    threejs,
+    meta,
+    shopify,
+    starbucks,
+    tesla,
+    carrent,
+    jobit,
+    tripguide,
+    ligep,
+    gpt,
+    portfolio,
+    ilker,
+    ahmet,
+    huseyin,
+    ravensoft,
+    exorditech,
+    sbbitd
 };

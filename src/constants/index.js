@@ -1,28 +1,31 @@
 import {
-    mobile,
+    ahmet,
     backend,
     creator,
-    web,
-    javascript,
-    typescript,
-    html,
     css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
+    docker, exorditech,
     figma,
-    docker,
+    git,
+    gpt,
+    html,
+    huseyin,
+    ilker,
+    javascript,
+    ligep,
     meta,
-    starbucks,
-    tesla,
+    mobile,
+    mongodb,
+    nodejs,
+    portfolio, ravensoft,
+    reactjs,
+    redux, sbbitd,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    starbucks,
+    tailwind,
+    tesla,
     threejs,
+    typescript,
+    web,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +49,15 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Frontend Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Gamer",
         icon: creator,
     },
 ];
@@ -116,55 +119,45 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Intern",
+        company_name: "Exorditech",
+        icon: exorditech,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "June 2021 - July 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Completed an internship focused on creating advanced websites using PHP, HTML5, CSS3, and JavaScript.",
+            "Gained valuable experience in understanding the features and requirements of these web development languages and their applications in creating advanced websites.",
+            "Gained hands-on experience in developing websites with advanced features, including interactivity, responsive design, and dynamic content.",
+            "Developed skills in web development and learned about the latest trends and technologies in the field.",
+            "Overall, the internship was a valuable experience that provided an opportunity to gain practical experience in web development."
         ],
     },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        company_name: "Sakarya Metropolitan Municipality IT Department",
+        icon: sbbitd,
         iconBg: "#E6DEDD",
+        date: "Oct 2022 - Jan 2023",
+        points: [
+            "Worked at the Software Park project, a collaboration between Sakarya University, Sakarya University of Applied Sciences, and Sakarya Metropolitan Municipality.",
+            "Contributed to the development of software applications using ASP.Net Core 6, Angular, and JS technologies.",
+            "Provided technical support and worked collaboratively with the team to ensure that the project was delivered on time and met the needs of all stakeholders.",
+            "Gained valuable experience in software development through the project.",
+            "Contributed to the success of an important collaboration between academia and local government."
+        ],
+    },
+    {
+        title: "Web Developer",
+        company_name: "RavenSoft",
+        icon: ravensoft,
+        iconBg: "#383E56",
         date: "Jan 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Ravensoft is a web development company specializing in building websites and web applications using WordPress, React, and PHP Laravel technologies.",
+            "The company has a team of experienced developers dedicated to delivering high-quality solutions that meet the unique needs of each client.",
+            "Ravensoft uses a client-focused approach, working closely with clients to understand their goals and objectives.",
+            "The company then develops customized solutions to help clients achieve their desired outcomes, whether it's building a new website, creating a custom web application, or providing ongoing maintenance and support.",
+            "Ravensoft is committed to delivering exceptional results and providing outstanding customer service."
         ],
     },
 ];
@@ -172,84 +165,42 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "I was blown away by the quality of work and attention to detail in my project. The team's use of React and Three.js resulted in a visually stunning and interactive experience.",
+        name: "İlker Canbulut",
+        designation: "Executive Coach",
+        company: "TİM",
+        image: ilker,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "I had a wonderful experience working with this team. Their use of Tailwind CSS made it easy for me to customize my site to fit my brand.",
+        name: "Ahmet Mahmut Alperen",
+        designation: "Board Member",
+        company: "Ankara University",
+        image: ahmet,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "I highly recommend this team for anyone looking to build a portfolio site. Their expertise in React, Three.js, and Tailwind CSS.",
+        name: "Huseyin Ömer Güvenç",
+        designation: "Tutor",
+        company: "Develhope",
+        image: huseyin,
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "LIGEP",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "I developed lidergelisim.com with HTML, CSS, and JavaScript, Bootstrap for responsive design. Google Analytics and Cloudflare were integrated for analytics and website optimization. The technical implementation aimed for a fast, and user-friendly experience for visitors.",
         tags: [
             {
-                name: "react",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "javascript",
                 color: "green-text-gradient",
             },
             {
@@ -257,9 +208,50 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ligep,
+        source_code_link: "https://lidergelisim.com/",
+    },
+    {
+        name: "GPT-3",
+        description: "I built GPT-3 Design with React for the front-end and hosted it on a Linux server. The project uses a reverse proxy server to handle HTTP requests, providing a user-friendly experience. The app leverages modern web development tools to generate high-quality design assets.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: gpt,
+        source_code_link: "https://github.com/AlptekinOcakdan/gbt_react",
+    },
+    {
+        name: "3D Portfolio",
+        description:
+            "I built my portfolio site using React, Three.js, and Tailwind CSS. With Three.js, I created 3D visualizations for a more immersive experience. The use of Tailwind CSS allowed for quick and easy styling. The result is a visually appealing and user-friendly site that showcases my work and skills.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "threejs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: portfolio,
+        source_code_link: "https://github.com/AlptekinOcakdan/3d_portfolio",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {services, technologies, experiences, testimonials, projects};
