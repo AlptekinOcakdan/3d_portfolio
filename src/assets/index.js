@@ -36,7 +36,7 @@ import ligep from "./ligep.png";
 import gpt from "./gpt-3.png";
 import portfolio from "./porfolio.png";
 
-import ilker from "./testimonial/IlkerCanbulut.jpg"
+import burak from "./testimonial/Burak.jpeg"
 import ahmet from "./testimonial/Ahmet.jpeg"
 import huseyin from "./testimonial/Huseyin.jpeg"
 
@@ -72,7 +72,7 @@ export {
     ligep,
     gpt,
     portfolio,
-    ilker,
+    burak,
     ahmet,
     huseyin,
     ravensoft,

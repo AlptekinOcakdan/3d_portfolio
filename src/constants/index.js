@@ -9,7 +9,7 @@ import {
     gpt,
     html,
     huseyin,
-    ilker,
+    burak,
     javascript,
     ligep,
     meta,
@@ -166,10 +166,10 @@ const testimonials = [
     {
         testimonial:
             "I was blown away by the quality of work and attention to detail in my project. The team's use of React and Three.js resulted in a visually stunning and interactive experience.",
-        name: "İlker Canbulut",
-        designation: "Executive Coach",
-        company: "TİM",
-        image: ilker,
+        name: "Burak Sürümcüoğlu",
+        designation: "IT",
+        company: "Develhope",
+        image: burak,
     },
     {
         testimonial:
