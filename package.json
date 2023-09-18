@@ -10,24 +10,24 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@react-three/drei": "^9.78.1",
-    "@react-three/fiber": "^8.13.4",
-    "framer-motion": "^10.12.18",
-    "maath": "^0.7.0",
+    "@react-three/drei": "^9.83.9",
+    "@react-three/fiber": "^8.14.2",
+    "framer-motion": "^10.16.4",
+    "maath": "^0.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-parallax-tilt": "^1.7.151",
-    "react-router-dom": "^6.14.1",
+    "react-parallax-tilt": "^1.7.166",
+    "react-router-dom": "^6.16.0",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.154.0"
+    "three": "^0.156.1"
   },
   "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.6",
-    "vite": "^4.1.0"
+    "@types/react":"^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
   }
 }

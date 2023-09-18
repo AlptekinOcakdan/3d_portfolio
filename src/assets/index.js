@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 import exorditech from "./company/Exorditech.jpeg";
 import sbbitd from "./company/SBBITD.jpeg";
 import ravensoft from "./company/RavenSoft.jpeg";
+import juniusTech from "./company/JuniusTech.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -77,5 +78,6 @@ export {
     huseyin,
     ravensoft,
     exorditech,
-    sbbitd
+    sbbitd,
+    juniusTech
 };

@@ -12,20 +12,17 @@ import {
     burak,
     javascript,
     ligep,
-    meta,
     mobile,
     mongodb,
     nodejs,
     portfolio, ravensoft,
     reactjs,
     redux, sbbitd,
-    shopify,
-    starbucks,
     tailwind,
-    tesla,
     threejs,
     typescript,
     web,
+    juniusTech,
 } from "../assets";
 
 export const navLinks = [
@@ -119,17 +116,32 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Intern",
-        company_name: "Exorditech",
-        icon: exorditech,
+        title: "Frontend Developer",
+        company_name: "Junius Tech",
+        icon: juniusTech,
         iconBg: "#383E56",
-        date: "June 2021 - July 2021",
+        date: "September 2023 - Present",
         points: [
-            "Completed an internship focused on creating advanced websites using PHP, HTML5, CSS3, and JavaScript.",
-            "Gained valuable experience in understanding the features and requirements of these web development languages and their applications in creating advanced websites.",
-            "Gained hands-on experience in developing websites with advanced features, including interactivity, responsive design, and dynamic content.",
-            "Developed skills in web development and learned about the latest trends and technologies in the field.",
-            "Overall, the internship was a valuable experience that provided an opportunity to gain practical experience in web development."
+            "Junius is an innovative software development company specializing in crafting cutting-edge software solutions for businesses of all sizes.",
+            "The company's team, known as the Junior Geniuses, consists of young, highly skilled software engineers driven by their passion for technology.",
+            "At Junius, we firmly believe that technology can conquer any challenge, and we leverage the latest methodologies and technologies to create bespoke software solutions tailored to our clients' unique needs.",
+            "Our extensive expertise spans a wide range of domains, encompassing software development, mobile app creation, database management, cloud computing, web application development, machine learning, artificial intelligence, and big data analytics.",
+            "We collaborate closely with our clients, gaining insight into their specific challenges and objectives to deliver scalable, dependable, and secure solutions that empower them to realize their business aspirations.",
+            "Our Junior Geniuses thrive on tackling complex problems and are unwavering in their commitment to providing clients with the highest caliber solutions."
+        ],
+    },
+    {
+        title: "Web Developer",
+        company_name: "RavenSoft",
+        icon: ravensoft,
+        iconBg: "#383E56",
+        date: "Jan 2023 - March 2023",
+        points: [
+            "Ravensoft is a web development company specializing in building websites and web applications using WordPress, React, and PHP Laravel technologies.",
+            "The company has a team of experienced developers dedicated to delivering high-quality solutions that meet the unique needs of each client.",
+            "Ravensoft uses a client-focused approach, working closely with clients to understand their goals and objectives.",
+            "The company then develops customized solutions to help clients achieve their desired outcomes, whether it's building a new website, creating a custom web application, or providing ongoing maintenance and support.",
+            "Ravensoft is committed to delivering exceptional results and providing outstanding customer service."
         ],
     },
     {
@@ -147,17 +159,17 @@ const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "RavenSoft",
-        icon: ravensoft,
+        title: "Intern",
+        company_name: "Exorditech",
+        icon: exorditech,
         iconBg: "#383E56",
-        date: "Jan 2023 - Present",
+        date: "June 2021 - July 2021",
         points: [
-            "Ravensoft is a web development company specializing in building websites and web applications using WordPress, React, and PHP Laravel technologies.",
-            "The company has a team of experienced developers dedicated to delivering high-quality solutions that meet the unique needs of each client.",
-            "Ravensoft uses a client-focused approach, working closely with clients to understand their goals and objectives.",
-            "The company then develops customized solutions to help clients achieve their desired outcomes, whether it's building a new website, creating a custom web application, or providing ongoing maintenance and support.",
-            "Ravensoft is committed to delivering exceptional results and providing outstanding customer service."
+            "Completed an internship focused on creating advanced websites using PHP, HTML5, CSS3, and JavaScript.",
+            "Gained valuable experience in understanding the features and requirements of these web development languages and their applications in creating advanced websites.",
+            "Gained hands-on experience in developing websites with advanced features, including interactivity, responsive design, and dynamic content.",
+            "Developed skills in web development and learned about the latest trends and technologies in the field.",
+            "Overall, the internship was a valuable experience that provided an opportunity to gain practical experience in web development."
         ],
     },
 ];
@@ -192,8 +204,7 @@ const testimonials = [
 const projects = [
     {
         name: "LIGEP",
-        description:
-            "I developed lidergelisim.com with HTML, CSS, and JavaScript, Bootstrap for responsive design. Google Analytics and Cloudflare were integrated for analytics and website optimization. The technical implementation aimed for a fast, and user-friendly experience for visitors.",
+        description: "I developed lidergelisim.com with HTML, CSS, and JavaScript, Bootstrap for responsive design. Google Analytics and Cloudflare were integrated for analytics and website optimization. The technical implementation aimed for a fast, and user-friendly experience for visitors.",
         tags: [
             {
                 name: "html",
@@ -233,8 +244,7 @@ const projects = [
     },
     {
         name: "3D Portfolio",
-        description:
-            "I built my portfolio site using React, Three.js, and Tailwind CSS. With Three.js, I created 3D visualizations for a more immersive experience. The use of Tailwind CSS allowed for quick and easy styling. The result is a visually appealing and user-friendly site that showcases my work and skills.",
+        description: "I built my portfolio site using React, Three.js, and Tailwind CSS. With Three.js, I created 3D visualizations for a more immersive experience. The use of Tailwind CSS allowed for quick and easy styling. The result is a visually appealing and user-friendly site that showcases my work and skills.",
         tags: [
             {
                 name: "react",
