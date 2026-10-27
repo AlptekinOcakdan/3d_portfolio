@@ -2,7 +2,7 @@
 
 When you clone it, these are the steps:
 
-npm i --legacy-peer-deps
+npm i
 
 For run it:
 
